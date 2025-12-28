@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #34c94b; /* The green color mentioned */
+  --color-black: #121212;
+  --color-white: #ffffff;
+  font-family: 'Poppins', sans-serif; /* Set global font */
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}

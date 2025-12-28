@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--color-black); /* Black background */
+    color: var(--primary-color);          /* Green text */
+    border: 1px solid var(--primary-color); /* Usually looks better with a border, or remove if design says plain */
+    border-radius: 8px;                   /* Border radius */
+    padding: 10px 18px;                   /* Adjust padding to match Figma */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;                      /* Pointer cursor on hover */
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: var(--color-black);
+}
