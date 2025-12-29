@@ -4,7 +4,7 @@ const Search = () => {
     return (
         <div >
             <form className={styles.wrapper} action="">
-                <input className={styles.search} placeholder='search' type="text" />
+                <input className={styles.search} placeholder='search a song' type="text" />
                 <div>
                     <button className={styles.searchButton} type='submit'>
                         <img src={SearchIcon} alt='searchIcon' />
