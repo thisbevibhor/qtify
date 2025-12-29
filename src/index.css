@@ -1,12 +1,28 @@
 :root {
-  --primary-color: #34c94b; /* The green color mentioned */
+  --color-primary: #34c94b;
   --color-black: #121212;
-  --color-white: #ffffff;
-  font-family: 'Poppins', sans-serif; /* Set global font */
+  --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
-  margin: 0;
+  font-family: 'poppins', sans-serif;
+  line-height: 1.5;
   background-color: var(--color-black);
   color: var(--color-white);
+  overflow-x: hidden;
 }
+
