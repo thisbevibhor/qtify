@@ -27,7 +27,7 @@ const Section = ({ title, dataSource }) => {
                     className={styles.collapseButton} 
                     onClick={() => setIsCollapsed(!isCollapsed)}
                 >
-                    {isCollapsed ? 'Show All' : 'Collapse'}
+                    {isCollapsed ? 'show all' : 'Collapse'}
                 </button>
             </div>
 
