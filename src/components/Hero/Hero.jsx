@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hero.module.css';
-import HeroImage from '../../../assets/vibrating-headphone.svg'; 
+import HeroImage from '../../assets/vibrating-headphone.svg'; 
 
 const Hero = () => {
   return (

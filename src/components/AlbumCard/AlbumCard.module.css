@@ -1,0 +1,41 @@
+.card {
+    width: 159px; /* Standard card width for this design */
+    height: auto; /* Let content dictate height, or fix it if design demands */
+    display: flex;
+    flex-direction: column;
+    gap: 6px; /* Space between image/chip block and title */
+    cursor: pointer;
+}
+
+.cardImageWrapper {
+    height: 170px; /* Adjust height to match aspect ratio requirement */
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardImageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image doesn't stretch */
+    display: block;
+}
+
+.cardContent {
+    background-color: var(--color-white);
+    padding: 6px 10px;
+    border-radius: 0 0 10px 10px; /* Rounded bottom */
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* This creates the bottom white section for the Chip */
+}
+
+.cardTitle {
+    color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
