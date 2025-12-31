@@ -1,9 +1,11 @@
-import LogoImage from '../../assets/logo.png'
+import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
+import LogoImage from "../../assets/logo.svg";
 
-const Logo = () => {
+export default function Logo() {
   return (
-    <img src={LogoImage} alt="Qtify Logo" />
-  )
+    <Link to="/">
+      <Box component="img" src={LogoImage} alt="logo" width={67} />
+    </Link>
+  );
 }
-
-export default Logo

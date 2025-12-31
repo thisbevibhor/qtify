@@ -1,0 +1,76 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px !important;
+  font-family: "Poppins" !important;
+}
+
+.collapseButton {
+  background-color: transparent;
+  border: none;
+  color: var(--color-primary) !important;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px !important;
+  text-transform: none !important;
+  font-family: "Poppins" !important;
+}
+
+.collapseButton:hover {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.cardContainer {
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column !important;
+  gap: 6px;
+}
+
+.cardTitle {
+  color: white;
+  text-align: left;
+  font-size: 14px !important;
+  font-family: "Poppins" !important;
+}
+
+h2 {
+  color: white;
+}
+
+.faqContainer {
+  margin: 0% 10%;
+  font-size: var(--font-size-base);
+}
+
+.faqAccordion {
+  border: 1px solid white;
+  border-radius: 10px !important;
+  overflow: hidden;
+  background: white !important;
+}
+
+.faqAccordionSummary {
+  color: white !important;
+  border-radius: 10px !important;
+  background: var(--color-black) !important;
+  text-align: left;
+}
+
+.faqAccordionDetails {
+  background-color: white;
+  color: var(--color-black);
+  text-align: left;
+}

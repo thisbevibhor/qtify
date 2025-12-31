@@ -1,23 +1,24 @@
-import React from 'react';
-import styles from './Hero.module.css';
-import HeroImage from '../../assets/vibrating-headphone.svg'; 
+import { Box, Typography } from "@mui/material";
+import styles from "./Hero.module.css";
+import HeroImg from "../../assets/hero_headphones.svg";
 
-const Hero = () => {
+function Hero() {
   return (
-    <section className={styles.hero}>
-      <div className={styles.heroContent}>
-        <div className={styles.heroText}>
-          <h1>100 Thousand Songs, ad-free</h1>
-          <h1>Over thousands podcast episodes</h1>
-        </div>
-        <img 
-            src={HeroImage} 
-            alt="Headphones" 
-            className={styles.heroImage} 
-        />
-      </div>
-    </section>
+    <Box
+      className={styles.hero}
+      sx={{
+        flexDirection: { sm: "row", xs: "column" },
+        gap: { sm: "45px", xs: "0px" },
+        paddingTop: { sm: "20px", xs: "40px !important"  },
+      }}
+    >
+      <Box>
+        <Typography variant="h6">100 Thousand Songs, ad-free</Typography>
+        <Typography variant="h6">Over thousands podcast episodes</Typography>
+      </Box>
+      <Box component="img" src={HeroImg} width={160} alt="headphones" />
+    </Box>
   );
-};
+}
 
 export default Hero;

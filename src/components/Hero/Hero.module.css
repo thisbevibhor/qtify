@@ -1,47 +1,14 @@
 .hero {
-  /* Dimensions from Figma: 1440w x 270h */
-  height: 270px;
-  width: 100%;
-  background-color: var(--color-black); /* Using your global variable */
-  
-  /* Flexbox to center the inner content perfectly */
+  background-color: var(--color-black);
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  /* Ensure it sits on top of other content if needed */
-  position: relative; 
-  z-index: 1;
-}
-
-.heroContent {
-  /* Dimensions from Figma inner rectangle: ~799w x 212h */
-  width: 100%;
-  max-width: 800px; /* Rounded up from 799px for cleaner CSS */
-  height: 212px;
-  
-  display: flex;
-  justify-content: space-between; /* Pushes text to left, image to right */
-  align-items: center;
-}
-
-.heroText {
-  color: var(--color-white);
-  font-family: 'Poppins', sans-serif;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  color: white;
+  padding: 20px;
 }
 
-.heroText h1 {
-  font-weight: 600;
-  font-size: 32px; /* Standard hero text size, adjust if Figma specifies */
-  margin: 0;
-  line-height: 1.5;
-}
-
-.heroImage {
-  height: 100%; /* Will scale to fit the 212px container height */
-  object-fit: contain;
+.hero * {
+  font-family: "Poppins" !important ;
+  font-weight: 600 !important;
 }

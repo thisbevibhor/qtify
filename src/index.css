@@ -1,28 +1,21 @@
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 :root {
   --color-primary: #34c94b;
+  --color-secondary: #ffffff;
   --color-black: #121212;
-  --color-white: #fff;
+  --font-family: "Poppins", sans-serif;
+  --font-size-base: 13px;
+  --spacing-unit: 8px;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  font-family: 'poppins', sans-serif;
-  line-height: 1.5;
-  background-color: var(--color-black);
-  color: var(--color-white);
-  overflow-x: hidden;
-}
-
