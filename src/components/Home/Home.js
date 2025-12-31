@@ -3,9 +3,9 @@ import styles from "./Home.module.css";
 import { Box } from "@mui/material";
 import axios from "axios";
 import { useState } from "react";
-import Hero from "../Hero/Hero";
-import MusicBar from "../MusicBar/MusicBar";
-import Albums from "./Albums";
+import Hero from "../Hero/Hero.jsx";
+import MusicBar from "../MusicBar/MusicBar.js";
+import Albums from "./Albums.jsx";
 
 export const fetchData = async (type) => {
   try {

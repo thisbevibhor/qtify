@@ -1,7 +1,7 @@
 import React from "react";
-import Loader from "../Loader/Loader";
-import CardSection from "./CardSection";
-import FaqSection from "./FaqSection";
+import Loader from "../Loader/Loader.jsx";
+import CardSection from "./CardSection.jsx";
+import FaqSection from "./FaqSection.jsx";
 
 export default React.memo(function Section({
   title,

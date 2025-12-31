@@ -2,9 +2,9 @@ import { Box } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
-import Loader from "./components/Loader/Loader";
-import Navbar from "./components/Navbar/Navbar";
-import AppRoutes from "./components/AppRoutes/AppRoutes";
+import Loader from "./components/Loader/Loader.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import AppRoutes from "./components/AppRoutes/AppRoutes.jsx";
 import { MusicContext } from "./MusicContext";
 
 export const fetchData = async (path) => {

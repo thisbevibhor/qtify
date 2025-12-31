@@ -4,7 +4,7 @@ import { Box } from "@mui/system";
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import SearchIcon from "../../assets/search-icon.svg";
-import DropDown from "./DropDown";
+import DropDown from "./DropDown.jsx";
 import styles from "./Search.module.css";
 
 function Search({ searchData, placeholder, sx, maxWidth }) {

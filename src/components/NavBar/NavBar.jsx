@@ -1,9 +1,9 @@
 import { Box } from "@mui/material";
 import React from "react";
-import CustomButton from "../Button/Button";
-import Logo from "../Logo/Logo";
-import Search from "../Search/Search";
-import FeedbackModal from "./FeedbackModal";
+import CustomButton from "../Button/Button.jsx";
+import Logo from "../Logo/Logo.jsx";
+import Search from "../Search/Search.jsx";
+import FeedbackModal from "./FeedbackModal.jsx";
 import styles from "./Navbar.module.css";
 
 function Navbar({ data }) {

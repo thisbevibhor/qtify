@@ -3,10 +3,10 @@ import Pagination from "@mui/material/Pagination";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { MusicContext } from "../../MusicContext";
-import MusicBar from "../MusicBar/MusicBar";
+import MusicBar from "../MusicBar/MusicBar.js";
 import styles from "./AlbumDetails.module.css";
-import AlbumDetailsHeader from "./AlbumDetailsHeader";
-import SongsList from "./SongsList";
+import AlbumDetailsHeader from "./AlbumDetailsHeader.jsx";
+import SongsList from "./SongsList.jsx";
 
 function AlbumDetails({ data }) {
   const { id } = useParams();

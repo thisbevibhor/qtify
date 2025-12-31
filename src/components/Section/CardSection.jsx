@@ -1,8 +1,8 @@
 import { Grid } from "@mui/material";
-import Carousel from "../Carousel/Carousel";
-import CardSectionHeader from "./CardSectionHeader";
+import Carousel from "../Carousel/Carousel.js";
+import CardSectionHeader from "./CardSectionHeader.jsx";
 import styles from "./Section.module.css";
-import StaticGrid from "./StaticGrid";
+import StaticGrid from "./StaticGrid.jsx";
 
 export default function CardSection({
   songs,

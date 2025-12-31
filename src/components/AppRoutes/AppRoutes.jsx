@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import AlbumDetails from "../AlbumDetails/AlbumDetails";
-import Home from "../Home/Home";
+import AlbumDetails from "../AlbumDetails/AlbumDetails.js";
+import Home from "../Home/Home.js";
 
 export default function AppRoutes({ data }) {
 

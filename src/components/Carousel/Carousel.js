@@ -4,8 +4,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./Carousel.css";
 
-import CardSwiper from "./CardSwiper";
-import SongsSection from "./SongsSection";
+import CardSwiper from "./CardSwiper.jsx";
+import SongsSection from "./SongsSection.jsx";
 
 export default function Carousel({ data, songs = false, genres }) {
   const [value, setValue] = useState("all");
